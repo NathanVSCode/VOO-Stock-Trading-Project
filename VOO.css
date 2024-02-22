@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(187, 125, 81);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 30px;
+    font-size: 20px;
+    
+}
+
+h1{
+
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
