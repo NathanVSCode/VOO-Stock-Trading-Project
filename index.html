@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vangard Investment Analyzer</title>
+    <link rel="stylesheet" href="VOO.css">
+</head>
+</head>
+<body>
+    <h1>
+        The Vangard Investment Analyzer
+    </h1>
+    <p>This is the Vangard Investment analyzer. What I have created here shows the power of investing consistantly <br>
+         and the benefit of it. When you put a dollar amount, the year and the month, you get how much money you <br>
+         would have earned from VOO if you had invested at that time! This may also help if you want to invest in<br>
+         the future and want to see what VOO's performance from the past</p>
+         <form>
+            <label>Please pick in the month that you want to put in</label>
+            <select id="vooMonth" name="vooMonth">
+                <option value="">(select one)</option>
+                <option value=1>Jan</option>
+                <option value=2>Feb</option>
+                <option value="3">Mar</option>
+                <option value="4">Apr</option>
+                <option value="5">May</option>
+                <option value="6">Jun</option>
+                <option value="7">Jul</option>
+                <option value="8">Aug</option>
+                <option value="9">Sep</option>
+                <option value="10">Oct</option>
+                <option value="11">Nov</option>
+                <option value="12">Dec</option>
+              </select><br>
+              <br>
+              <label>Please type in the year that you want to get Voo's price from (It has to be in between they years 2002 and 2023)</label>
+            <input type="number" id="vooYear" name="vooYear" min="2002" max="2023"><br>
+            <br>
+            <label>Please type the dollar amount you want to invest.</label>
+            <input type="number" id="dollarAmount" name="dollarAmount" min="1"><br>
+            <br>
+            <button type="button" onclick="fn_CalculateVOO()" >Submit</button>
+            <p id="displayResult"> </p>
+        </form>
+         <hr>
+         <img src="giphy.gif" width="300">
+         <script src="VOO.js"></script>
+</body>
+</html>
